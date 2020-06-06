@@ -1,5 +1,12 @@
 #Task
-# Write a person class with an instance variable age and a constructor that takes an integer initiated as a parameter the constructor much to sign initial age to age after confirming the argument past as initial age is not negative past as initially is the constructor should set age 20 and print age is not valid setting age to 0 in addition you must write the following instance methods year passes should increase the age instance variable-I am I also perform the following condition elections if it is less than 13 print you are young age is greater than equal to 13 and you just listen 18 print you are a teenager otherwise friend you are old
+# Write a person class with an instance variable age and a constructor that takes an integer initialAge as a parameter. 
+#The constructor must assign initialAge to age after confirming the argument past as initialAge is not negative;
+#if a negative argument is passed past as initilAge, the constructor should set age 20 to 0 and print "age is not valid setting age to 0"
+#In addition you must write the following instance methods: 
+#yearPasses() should increase the age instance variable by 1
+#amIOld() should perform the following conditional actions:
+#if age<13 print "you are young"
+#if age<=13 and age<18 print "you are a teenager" otherwise print "you are old".
 
 
 
