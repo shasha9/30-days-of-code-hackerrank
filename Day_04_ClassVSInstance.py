@@ -8,10 +8,6 @@
 #if age<13 print "you are young"
 #if age<=13 and age<18 print "you are a teenager" otherwise print "you are old".
 
-
-
-
-
 class Person:
     age=0
     def __init__(self,initialAge):
