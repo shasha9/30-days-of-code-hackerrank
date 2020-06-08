@@ -10,13 +10,14 @@ import java.util.regex.*;
 
 public class stringreview {
 
-   public static void main(String[] args) {
+   public static void main(String[] args) 
+   {
        Scanner scan = new Scanner(System.in);
        int n = scan.nextInt(); 
        String line = "";
        String first = "";
        String second = "";
-       line = scan.nextLine(); // throwaway
+       line = scan.nextLine();
        for (int i = 0; i < n; i++) {
            first = "";
            second = "";
