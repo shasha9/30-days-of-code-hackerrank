@@ -9,7 +9,7 @@
 #Concatenate  with the string you read as input and print the result on a new line.
 
 
-# Declare second integer, double, and String variables.
+#Declare second integer, double, and String variables.
 a = 0
 b = 0.0
 c = ''
