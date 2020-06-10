@@ -15,7 +15,7 @@ class Person:
         if initialAge < 0:
             print ("Age is not valid, setting age to 0.")
         else:
-            self.age = initialAge
+            self.age= initialAge
     def amIOld(self):
         # Do some computations in here and print out the correct statement to the console
         if self.age < 13:
