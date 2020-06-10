@@ -15,7 +15,7 @@ b = 0.0
 c = ''
 
 # Read and save an integer, double, and String to your variables.
-a = int(input())
+a =int(input())
 b = float(input())
 c = input()
 
