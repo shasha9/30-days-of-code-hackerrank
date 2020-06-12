@@ -9,7 +9,7 @@ n = int(input().strip())
 binary = list(bin(n)[2:])
 #print (binary)
 
-count = 0
+count =0
 max_count = 0
 for i in binary:
     if (i == '1'):
