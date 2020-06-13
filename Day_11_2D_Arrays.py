@@ -1,3 +1,8 @@
+#Given a 6x6 2D Array,A:
+# hourglass in A is the subset of values with indices falling in this pattern in A's graphical representation and an hourglass sum is the sum of an hourglass' values.
+#Task
+#Calculate the hourglass sum for every hourglass in A, then print the maximum hourglass sum.
+
 
 import sys
 
