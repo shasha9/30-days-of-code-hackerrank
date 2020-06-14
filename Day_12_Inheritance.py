@@ -1,4 +1,6 @@
-
+#Task
+#You are given two classes, Person and Student, where Person is the base class and Student is the derived class. 
+#Student inherits all the properties of Person.
 
 class Student(Person):
     def __init__(self,firstHame,lastName,idNumber,scores):
