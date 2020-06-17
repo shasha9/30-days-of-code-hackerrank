@@ -4,3 +4,7 @@
 #Once the new node is added, return the reference to the head node.
 
 def insert(self,head,data): 
+    n = Node(data)
+        if head:
+            current = head
+            while current.next:
