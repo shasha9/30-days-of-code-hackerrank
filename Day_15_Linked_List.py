@@ -4,9 +4,9 @@
 #Once the new node is added, return the reference to the head node.
 
 def insert(self,head,data): 
-    n = Node(data)
+     n= Node(data)
         if head:
-            current = head
+            current = headL
             while current.next:
                 current = current.next
             current.next = n
