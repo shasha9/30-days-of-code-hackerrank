@@ -8,3 +8,8 @@ def insert(self,head,data):
         if head:
             current = head
             while current.next:
+                current = current.next
+            current.next = n
+            return head
+        else:
+            return n
