@@ -9,4 +9,4 @@ try:
     a=int(S)
     print(a)
 except:
-    print("Bad String")
+    print("Bad_String")
