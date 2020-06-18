@@ -1,4 +1,5 @@
-
+#Task
+Read a string, , and print its integer value; if  cannot be converted to an integer, print Bad String.
 
 import sys
 
