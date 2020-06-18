@@ -20,7 +20,7 @@ class Solution:
         elif (head.next == None):
             head.next = Node(data)
         else: 
-            self.insert(head.next, data)
+            self.insert(head.next,data)
         return head
 
 mylist= Solution()
