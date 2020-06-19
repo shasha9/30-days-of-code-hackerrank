@@ -8,4 +8,4 @@ class Calculator:
         if n>=0 and p>=0:
             return pow(n,p)
         else:
-            raise Exception('n and p should be non-negative')
+            raise Exception('n and p should be non negative')
