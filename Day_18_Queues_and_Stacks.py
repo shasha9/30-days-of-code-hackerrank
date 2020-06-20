@@ -7,5 +7,8 @@
     def enqueueCharacter(self, ch):
         self.queue.append(ch)
     def popCharacter(self):
+        return self.stack.pop(0)
+    def dequeueCharacter(self):
+        return self.stack.pop()
      
     
