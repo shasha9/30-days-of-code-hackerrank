@@ -8,8 +8,8 @@ import sys
 
 class Solution:
     def __init__(self):
-        self.stack = []
-        self.queue = []
+        self.stack =[]
+        self.queue =[]
 
     def popCharacter(self):
         return self.stack.pop()
