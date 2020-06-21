@@ -10,8 +10,8 @@ class Calculator implements AdvancedArithmetic{
         }
         
         // Find and sum divisors:
-        int half = n/2;
-        int sum = n;
+        int half=n/2;
+        int sum=n;
         do{
             if(n % half == 0){
                 sum += half;
