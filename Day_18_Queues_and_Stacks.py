@@ -1,3 +1,8 @@
+#Task
+#Take each character in s , enqueue it in a queue, and also push that same character onto a stack. 
+#Once that's done,dequeue the first character from the queue and pop the top character off the stack, then compare the two characters to see if they are the same; 
+#as long as the characters match, 
+#we continue dequeueing, popping, and comparing each character until containers are empty (a non-match means s isn't a palindrome).
 
 import sys
 
