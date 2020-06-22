@@ -12,7 +12,7 @@ for i in range(0,len(a)):
     nbswaps=0
     for i in range(0,len(a)-1):
         if a[i]>a[i+1]:
-            a[i],a[i+1] = a[i+1],a[i]
+            a[i],a[i+1]=a[i+1],a[i]
             nbswaps+=1
     totalswaps+=nbswaps
     if nbswaps==0:
