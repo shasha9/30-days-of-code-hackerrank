@@ -6,7 +6,7 @@
     
     // Write your code here
     public static <Element> void printArray(Element[] array) {
-        for (Element element : array) {
+        for (Element element :array) {
             System.out.println(element);
         }
     }
