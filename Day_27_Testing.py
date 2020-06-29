@@ -32,5 +32,15 @@ class TestDataEmptyArray(object):
 
     @staticmethod
     def get_array():
+         # complete this function
+         data =  TestDataExactlyTwoDifferentMinimums.newData
+         return data
+
+    @staticmethod
+    def get_expected_result():
+        # complete this function
+        data = TestDataExactlyTwoDifferentMinimums.get_array()
+        return data.index(min(data))
+
     
 
