@@ -10,7 +10,7 @@ class TestDataEmptyArray(object):
 
     data = set()
     while len(data) < 10:
-        data.add(randint(0, 100))
+        data.add(randint(0,100))
 
     @staticmethod
     def get_array():
