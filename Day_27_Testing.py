@@ -17,4 +17,10 @@ class TestDataEmptyArray(object):
         # complete this function
         data = TestDataUniqueValues.data
         return list(data)
+    @staticmethod
+    def get_expected_result():
+        # complete this function
+        data = TestDataUniqueValues.get_array()
+        return data.index(min(data))
+    
 
