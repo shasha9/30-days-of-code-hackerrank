@@ -22,5 +22,15 @@ class TestDataEmptyArray(object):
         # complete this function
         data = TestDataUniqueValues.get_array()
         return data.index(min(data))
+ class TestDataExactlyTwoDifferentMinimums(object):
+
+    data = set()
+    while len(data) < 9:
+        data.add(randint(0, 100))
+    newData = list(data)
+    newData.append(min(newData))
+
+    @staticmethod
+    def get_array():
     
 
