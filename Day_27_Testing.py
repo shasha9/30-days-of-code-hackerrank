@@ -33,7 +33,7 @@ class TestDataEmptyArray(object):
     @staticmethod
     def get_array():
          # complete this function
-         data =  TestDataExactlyTwoDifferentMinimums.newData
+         data = TestDataExactlyTwoDifferentMinimums.newData
          return data
 
     @staticmethod
