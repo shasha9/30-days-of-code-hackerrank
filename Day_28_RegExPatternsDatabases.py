@@ -20,7 +20,7 @@ pattern = re.compile('@gmail.com$')
 
 N = int(input().strip())
 for a0 in range(N):
-    firstName,emailID = input().strip().split(' ')
+    firstName,emailID=input().strip().split(' ')
     if pattern.search(emailID):
         names.append(firstName)
 names.sort()
