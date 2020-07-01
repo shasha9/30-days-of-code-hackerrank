@@ -16,7 +16,7 @@ for a0 in range(N):
 import sys, re
 
 names = []
-pattern = re.compile('@gmail.com$')
+pattern=re.compile('@gmail.com$')
 
 N = int(input().strip())
 for a0 in range(N):
